@@ -1,3 +1,5 @@
+<p align="center"><a href="https://usedoorman.app"><img src=".github/assets/doorman-banner.jpg" alt="Doorman: stops apps and coding agents from stealing focus while you type" width="100%"></a></p>
+
 # Doorman
 
 A Mac app that stops other apps and coding agents from stealing focus while you type.
