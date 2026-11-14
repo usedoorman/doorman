@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or idea
+    url: https://github.com/usedoorman/doorman/discussions
+    about: Ask anything, share your setup, or float an idea.
+  - name: Download Doorman
+    url: https://usedoorman.app
+    about: Get the app.

@@ -1,0 +1,40 @@
+name: Bug report
+description: Something in Doorman isn't working right
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you see, and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can I make it happen?
+      description: Steps, and which apps or agents were involved (Chrome, the simulator, Claude Code, Codex...).
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: "15.4"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Doorman version
+      description: If you know it.
+  - type: dropdown
+    id: displays
+    attributes:
+      label: Displays
+      options:
+        - One display
+        - Two or more displays
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Screenshots or a screen recording help a lot.
